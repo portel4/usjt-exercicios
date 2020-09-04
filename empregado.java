@@ -19,6 +19,11 @@ public class Empregado{
     public void setIdade(int idade){
         this idade=idade;
     }
+    public String getTipo(){
+        return idade;
+    }
+    public void setTipo(String tipo){
+        this tipo=tipo
 
     public double calculoSalario(){
         switch (tipo) {
